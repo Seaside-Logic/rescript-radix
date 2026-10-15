@@ -3,6 +3,26 @@
   "version": "0.1.0",
   "description": "ReScript React bindings for Radix Primitives",
   "license": "MIT",
+  "author": "Seaside Logic",
+  "homepage": "https://rescript-radix.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seaside-Logic/rescript-radix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Seaside-Logic/rescript-radix/issues"
+  },
+  "keywords": [
+    "rescript",
+    "rescript-react",
+    "react",
+    "radix",
+    "radix-ui",
+    "bindings",
+    "accessibility",
+    "headless",
+    "ui"
+  ],
   "type": "module",
   "files": [
     "src/**/*.res",

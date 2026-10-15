@@ -15,9 +15,11 @@ let details = `Key facts for writing code against these bindings:
 - Each part binds only the props Radix documents for it, plus \`asChild\`, \`className\`, \`style\`, \`id\`, \`ref\` and \`children\`. For any other HTML attribute, pass \`asChild=true\` and render your own element.
 - Primitives are unstyled. Style them with \`className\` and Radix's \`data-state\` and similar attributes.`
 
+let siteUrl = "https://rescript-radix.dev"
+
 let mdPath = href => `${href}.md`
 
-let link = (~title, ~href, ~description) => `- [${title}](${mdPath(href)}): ${description}`
+let link = (~title, ~href, ~description) => `- [${title}](${siteUrl}${mdPath(href)}): ${description}`
 
 let guideMarkdown = (guide: Guides.t) => `# ${guide.title}
 

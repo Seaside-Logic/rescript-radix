@@ -2,7 +2,7 @@
 
 Unofficial ReScript React bindings for [Radix Primitives](https://www.radix-ui.com/primitives).
 
-Use Radix's accessible, unstyled React components from ReScript.
+Use Radix's accessible, unstyled React components from ReScript. Documentation and live examples: [rescript-radix.dev](https://rescript-radix.dev).
 
 > **Status: 0.1.0, published.** All Radix Primitives components and utilities are bound (see [Component coverage](#component-coverage)). Prop coverage per part is deliberately lean; see [Prop coverage](#prop-coverage).
 
