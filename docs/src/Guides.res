@@ -11,6 +11,7 @@ type t = {
 @module("./guides/usage.md?raw") external usage: string = "default"
 @module("./guides/styling.md?raw") external styling: string = "default"
 @module("./guides/tailwind.md?raw") external tailwind: string = "default"
+@module("./guides/css-modules.md?raw") external cssModules: string = "default"
 @module("./guides/composition.md?raw") external composition: string = "default"
 @module("./guides/ai-agents.md?raw") external aiAgents: string = "default"
 
@@ -38,6 +39,12 @@ let all = [
     title: "Tailwind CSS",
     summary: "Style primitives with Tailwind utilities, state variants and Radix CSS variables.",
     body: tailwind,
+  },
+  {
+    slug: "css-modules",
+    title: "CSS Modules",
+    summary: "Bind scoped class names in ReScript and style Radix state with them.",
+    body: cssModules,
   },
   {
     slug: "composition",
