@@ -78,6 +78,14 @@ let make = (~route) =>
       </a>
     </nav>
     <div className="header-divider" />
+    <a
+      className="icon-button"
+      href="https://github.com/Seaside-Logic/rescript-radix"
+      target="_blank"
+      rel="noreferrer"
+      ariaLabel="GitHub repository">
+      <Icon.GitHub />
+    </a>
     <ThemeToggle />
     <Route.Link route=Guide("installation") className="button primary pill header-cta">
       {React.string("Get started")}
