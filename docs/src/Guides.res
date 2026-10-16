@@ -10,6 +10,7 @@ type t = {
 @module("./guides/installation.md?raw") external installation: string = "default"
 @module("./guides/usage.md?raw") external usage: string = "default"
 @module("./guides/styling.md?raw") external styling: string = "default"
+@module("./guides/tailwind.md?raw") external tailwind: string = "default"
 @module("./guides/composition.md?raw") external composition: string = "default"
 @module("./guides/ai-agents.md?raw") external aiAgents: string = "default"
 
@@ -31,6 +32,12 @@ let all = [
     title: "Styling",
     summary: "Style primitives with your own CSS and Radix state attributes.",
     body: styling,
+  },
+  {
+    slug: "tailwind",
+    title: "Tailwind CSS",
+    summary: "Style primitives with Tailwind utilities, state variants and Radix CSS variables.",
+    body: tailwind,
   },
   {
     slug: "composition",
