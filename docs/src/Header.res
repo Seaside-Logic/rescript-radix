@@ -82,8 +82,7 @@ let make = (~route) =>
       className="icon-button"
       href="https://github.com/Seaside-Logic/rescript-radix"
       target="_blank"
-      rel="noreferrer"
-      ariaLabel="GitHub repository">
+      rel="noreferrer">
       <Icon.GitHub />
     </a>
     <ThemeToggle />

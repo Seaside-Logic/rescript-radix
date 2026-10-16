@@ -2,22 +2,22 @@
 let make = () =>
   <Radix.Toolbar.Root className="toolbar" ariaLabel="Formatting options">
     <Radix.Toolbar.ToggleGroupMultiple type_=#multiple className="toggle-group">
-      <Radix.Toolbar.ToggleItem className="toggle" value="bold" ariaLabel="Bold">
+      <Radix.Toolbar.ToggleItem className="toggle" value="bold">
         <Icon.Bold />
       </Radix.Toolbar.ToggleItem>
-      <Radix.Toolbar.ToggleItem className="toggle" value="italic" ariaLabel="Italic">
+      <Radix.Toolbar.ToggleItem className="toggle" value="italic">
         <Icon.Italic />
       </Radix.Toolbar.ToggleItem>
     </Radix.Toolbar.ToggleGroupMultiple>
     <Radix.Toolbar.Separator className="separator" />
     <Radix.Toolbar.ToggleGroupSingle type_=#single className="toggle-group" defaultValue="left">
-      <Radix.Toolbar.ToggleItem className="toggle" value="left" ariaLabel="Left aligned">
+      <Radix.Toolbar.ToggleItem className="toggle" value="left">
         <Icon.AlignLeft />
       </Radix.Toolbar.ToggleItem>
-      <Radix.Toolbar.ToggleItem className="toggle" value="center" ariaLabel="Center aligned">
+      <Radix.Toolbar.ToggleItem className="toggle" value="center">
         <Icon.AlignCenter />
       </Radix.Toolbar.ToggleItem>
-      <Radix.Toolbar.ToggleItem className="toggle" value="right" ariaLabel="Right aligned">
+      <Radix.Toolbar.ToggleItem className="toggle" value="right">
         <Icon.AlignRight />
       </Radix.Toolbar.ToggleItem>
     </Radix.Toolbar.ToggleGroupSingle>

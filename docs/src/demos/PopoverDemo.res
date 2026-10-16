@@ -14,7 +14,7 @@ let make = () =>
           <input className="input" defaultValue="25px" />
         </label>
         <Radix.Popover.Close asChild=true>
-          <button className="icon-button popover-close" ariaLabel="Close"> <Icon.Close /> </button>
+          <button className="icon-button popover-close"> <Icon.Close /> </button>
         </Radix.Popover.Close>
         <Radix.Popover.Arrow className="popover-arrow" />
       </Radix.Popover.Content>

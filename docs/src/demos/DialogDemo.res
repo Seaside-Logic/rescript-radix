@@ -21,7 +21,7 @@ let make = () =>
           <Radix.Dialog.Close className="button primary"> {React.string("Save changes")} </Radix.Dialog.Close>
         </div>
         <Radix.Dialog.Close asChild=true>
-          <button className="icon-button dialog-close" ariaLabel="Close"> <Icon.Close /> </button>
+          <button className="icon-button dialog-close"> <Icon.Close /> </button>
         </Radix.Dialog.Close>
       </Radix.Dialog.Content>
     </Radix.Dialog.Portal>
